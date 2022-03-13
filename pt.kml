@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Lapisan tanpa judul</name>
+    <Style id="poly-01579B-1200-77-nodesc-normal">
+      <LineStyle>
+        <color>ff9b5701</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d9b5701</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-01579B-1200-77-nodesc-highlight">
+      <LineStyle>
+        <color>ff9b5701</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d9b5701</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-01579B-1200-77-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-01579B-1200-77-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-01579B-1200-77-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Poligon 1</name>
+      <styleUrl>#poly-01579B-1200-77-nodesc</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              99.9155435,2.9900168,0
+              99.8674783,3.0503576,0
+              99.81392,3.0572143,0
+              99.7466287,3.0366441,0
+              99.6353922,3.0366441,0
+              99.5708475,3.0270445,0
+              99.4678507,2.9831596,0
+              99.2700968,2.933787,0
+              99.1465006,2.9008708,0
+              99.0599832,2.8254341,0
+              99.0283975,2.7280449,0
+              99.0586099,2.6580844,0
+              99.1245279,2.6237886,0
+              99.1286478,2.5346151,0
+              99.1506204,2.4509236,0
+              99.294816,2.4372032,0
+              99.4623575,2.5208956,0
+              99.620286,2.5908637,0
+              99.7933206,2.6704307,0
+              99.9031839,2.7019817,0
+              99.9910745,2.7582227,0
+              99.9965677,2.8089745,0
+              99.9897012,2.8652104,0
+              99.9938211,2.93653,0
+              99.9869547,2.9543592,0
+              99.9636087,2.9529878,0
+              99.9155435,2.9900168,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>
